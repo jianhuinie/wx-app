@@ -11,10 +11,10 @@
 微信开放平台：[这里](https://mp.weixin.qq.com/)  
 
 ## 上甘之家
-账号：
-密码：
+账号：854606151@qq.com     
+密码：sgzj8888     
 管理员：聂建辉  
-appID: 
+appID: wx6461085a374107ff
 ## 开发人员
 niejianhui
 

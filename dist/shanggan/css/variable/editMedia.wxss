@@ -1,0 +1,115 @@
+.edit-text {
+  position: relative;
+  margin-bottom: 20rpx;
+  padding-right: 30rpx;
+}
+.edit-text .answer-content {
+  font-size: 30rpx;
+  color: #9D9D9E;
+  font-weight: 200;
+}
+.edit-text textarea {
+  height: 380rpx;
+  font-size: 30rpx;
+  padding: 20rpx 0;
+  width: 100%;
+}
+.edit-text .input-remind {
+  font-size: 26rpx;
+  color: #9D9D9E;
+  line-height: 28rpx;
+  position: absolute;
+  right: 30rpx;
+  bottom: 10rpx;
+}
+.edit-photo {
+  margin-bottom: 20rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #cdcdce;
+}
+.edit-photo > view {
+  display: inline-block;
+  margin-right: 24rpx;
+}
+.edit-photo .photo-item image {
+  width: 60px;
+  height: 60px;
+}
+.edit-photo .image-wrapper {
+  position: relative;
+}
+.edit-photo .image-wrapper image {
+  width: 60px;
+  height: 60px;
+  border: 1rpx solid #cdcdce;
+}
+.edit-photo .image-wrapper .delete-icon {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: -10rpx;
+  top: -10rpx;
+  border: none;
+}
+.edit-audio .audio-wrapper {
+  border: 2rpx solid #9D9D9E;
+  border-radius: 4px;
+  margin-bottom: 30rpx;
+  width: 550rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+  position: relative;
+}
+.edit-audio .audio-wrapper:last-child {
+  margin: 0;
+}
+.edit-audio .audio-wrapper image {
+  width: 36rpx;
+  height: 36rpx;
+  margin-top: 10rpx;
+}
+.edit-audio .audio-wrapper text {
+  font-size: 30rpx;
+  color: #9D9D9E;
+  position: absolute;
+  right: 20rpx;
+}
+.edit-audio .audio-wrapper .delete-text {
+  font-size: 28rpx;
+  color: #9D9D9E;
+  position: absolute;
+  right: -140rpx;
+}
+.edit-audio .add-audio {
+  position: relative;
+  padding-bottom: 20rpx;
+}
+.edit-audio .add-audio image {
+  width: 22px;
+  height: 22px;
+}
+.edit-audio .add-audio text {
+  font-size: 30rpx;
+  color: #6D6D6E;
+  margin-left: 20rpx;
+  position: relative;
+  bottom: 6rpx;
+}
+.edit-audio .add-audio text.end-record {
+  color: #E4442C;
+}
+.edit-audio .add-audio .recording-icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 180rpx;
+}
+.edit-audio .add-audio .recording-time {
+  font-size: 30rpx;
+  color: #37A4F5;
+  position: absolute;
+  right: 30rpx;
+  top: 6rpx;
+}

@@ -1,0 +1,13 @@
+{
+    "pages":[
+        "pages/mypage/index",
+        "pages/helpInfo/index",
+        "pages/logs/logs"
+    ],
+    "window":{
+        "backgroundTextStyle":"light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "上甘之家",
+        "navigationBarTextStyle":"black"
+    }
+}

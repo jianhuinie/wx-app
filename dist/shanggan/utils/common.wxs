@@ -1,0 +1,69 @@
+//将秒转成 4‘20''的格式
+function convertTimeFromSecond(seconds) {
+    if (seconds > 60) {
+        var minute = Math.floor(seconds / 60);
+        var second = seconds % 60;
+        return minute + "'" + second + "''";
+    }
+    else {
+        return seconds + "''";
+    }
+}
+
+//根据数组长度返回class
+var convertClassByArrLength = function (arr) {
+    if (arr.length === 1) {
+        return 'single-item';
+    }
+    else if (arr.length === 2) {
+        return 'double-item';
+    }
+}
+
+//格式化日期参数 返回字符串
+function getFormatedTimeStr(array, character, addZero) {
+    if (addZero) {
+        for (var  i = 0; i < array.length; i++) {
+            var value = array[i];
+            if (value < 10) {
+                array[i] = '0' + value;
+            }
+        }
+    }
+    return array.join(character);
+}
+
+
+//从后面截取指定长度的字符串
+function cutStringFromEnd(str, length) {
+    var result = str;
+    var strLength = str.length;
+    if (strLength > length) {
+        var index = strLength - length;
+        result = '...' + str.substring(index);
+    }
+    return result;
+}
+//截取指定长度的字符串
+function cutString(str, length) {
+    var result = str;
+    var strLength = str.length;
+    if (strLength > length) {
+        result = str.substring(0, length) + '...';
+    }
+    return result;
+}
+
+//换行处理
+function switchLine(str) {
+    return str.replace('/\n/g', '<br>');
+}
+
+module.exports = {
+    convertTimeFromSecond: convertTimeFromSecond,
+    convertClassByArrLength: convertClassByArrLength,
+    getFormatedTimeStr: getFormatedTimeStr,
+    cutStringFromEnd: cutStringFromEnd,
+    cutString: cutString,
+    switchLine: switchLine
+};

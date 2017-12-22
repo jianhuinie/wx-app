@@ -1,0 +1,4 @@
+<view class="help-info {{usertype === 0 ? 'teacher': ''}}">
+    <image wx:if="{{usertype === 0}}" src="https://imgs.genshuixue.com/0cms/d/file/content/2017/11/5a1fa9ce0e46f.png"></image>
+    <image wx:else  src="https://imgs.genshuixue.com/0cms/d/file/content/2017/11/5a1fa9ce60189.png"></image>
+</view>

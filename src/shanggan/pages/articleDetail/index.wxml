@@ -3,7 +3,7 @@
         美丽的家乡风景
     </view>
     <view class="image-box" bindtap="viewImage" wx:for="{{images}}"
-          wx:key="{{item}}" data-index="{{index}}">
+          wx:key="{{*this}}" data-index="{{index}}">
         <image src="{{item}}"></image>
     </view>
 </view>

@@ -1,5 +1,5 @@
 /**
- * @file 作业系统小程序老帮助信息页
+ * @file 文章详情
  * @author niejianhui
  */
 
@@ -32,7 +32,7 @@ Page({
         var index = +target.dataset.index;
         var images = this.data.images;
         wx.previewImage({
-            current: index,
+            current: images[index],
             urls: images
         });
     }

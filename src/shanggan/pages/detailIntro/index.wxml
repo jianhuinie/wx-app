@@ -81,7 +81,7 @@
                     </view>
                 </view>
             <!-- </view> -->
-            <navigator class="info-item" url='/pages/index/index'>
+            <navigator class="info-item" url='/pages/nuowu/index'>
                 <text>傩舞文化</text>
                 <image class="icon-right" src="https://imgs.genshuixue.com/0cms/d/file/content/2017/09/59c20b957e61a.png"></image>
             </navigator>

@@ -1,5 +1,5 @@
 /**
- * @file 作业系统小程序老帮助信息页
+ * @file 文章列表
  * @author niejianhui
  */
 

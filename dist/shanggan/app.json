@@ -3,6 +3,7 @@
         "pages/index/index",
         "pages/detailIntro/index",
         "pages/articles/index",
+        "pages/nuowu/index",
         "pages/articleDetail/index",
         "pages/logs/logs"
     ],

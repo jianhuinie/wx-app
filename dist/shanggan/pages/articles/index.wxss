@@ -1,0 +1,90 @@
+/**
+ * 公共变量
+ */
+.hide {
+  display: none;
+}
+.show {
+  display: inline-block;
+}
+.word-break {
+  white-space: normal;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.ellipsis {
+  display: inline-block;
+  zoom: 1;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.txt-right {
+  text-align: right;
+}
+.placeholder {
+  color: #8a8a8a;
+}
+.info-box {
+  padding: 30rpx;
+}
+.info-box .title {
+  font-weight: bold;
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+}
+.info-box .content {
+  font-size: 24rpx;
+  text-indent: 48rpx;
+}
+.info-box .content .more-info {
+  color: #136ec2;
+}
+.image-box {
+  text-align: center;
+  margin: 20rpx auto;
+}
+page {
+  background: #f8f8f8;
+  height: 100%;
+}
+page .articles-page {
+  border-top: 2rpx solid #dcddde;
+}
+page .articles-page .article-list {
+  padding-bottom: 100rpx;
+}
+page .articles-page .article-list .article-item {
+  height: 202rpx;
+  margin-top: 20rpx;
+  background: #fff;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+page .articles-page .article-list .article-item navigator {
+  background: #fff;
+}
+page .articles-page .article-list .article-item navigator .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  white-space: inherit;
+  word-break: break-all;
+  font-size: 30rpx;
+  color: #3D3D3E;
+  font-weight: bold;
+}
+page .articles-page .article-list .article-item navigator .author-info {
+  font-size: 26rpx;
+  color: #3D3D3E;
+  line-height: 26rpx;
+  margin: 24rpx 0 16rpx 0;
+}
+page .articles-page .article-list .article-item navigator text {
+  font-size: 26rpx;
+  color: #9D9D9E;
+  line-height: 26rpx;
+}

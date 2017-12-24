@@ -1,0 +1,39 @@
+@import "../../css/variable/common.less";
+page {
+    height: 100%;
+    background-color: #f8f8f8;
+    .detail-intro {
+        border-top: 2rpx solid #dcddde;
+        .info-item {
+            position: relative;
+            background: #fff;
+            position: relative;
+            font-size: 30rpx;
+            color: #2D2D2E;
+            line-height: 30rpx;
+            height: 90rpx;
+            box-sizing:border-box;
+            padding-top: 30rpx;
+            padding-left: 30rpx;
+            .icon-right {
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                right: 3%;
+                top: 26rpx;
+            }
+            .status-text {
+                font-size: 26rpx;
+                color: #9D9D9E;
+                line-height: 26rpx;
+                position: absolute;
+                right: 10%;
+                top: 34rpx;
+            }
+            border-bottom: 2rpx solid #f8f8f8;
+            &:last-child {
+                border: none;
+            }
+        }
+    }
+}

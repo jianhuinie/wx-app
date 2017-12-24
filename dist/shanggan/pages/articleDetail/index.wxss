@@ -45,3 +45,14 @@
   text-align: center;
   margin: 20rpx auto;
 }
+page {
+  background: #f8f8f8;
+  height: 100%;
+}
+page .article-detail {
+  border-top: 2rpx solid #dcddde;
+}
+page .article-detail .title {
+  padding-left: 30rpx;
+  margin-top: 20rpx;
+}

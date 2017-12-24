@@ -9,7 +9,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.7.0",
-	"appid": "touristappid",
+	"appid": "wx6461085a374107ff",
 	"projectname": "%E4%B8%8A%E7%94%98%E4%B9%8B%E5%AE%B6",
 	"condition": {
 		"search": {
@@ -21,8 +21,15 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "详细介绍",
+					"pathName": "pages/detailIntro/index",
+					"query": ""
+				}
+			]
 		}
 	}
 }

@@ -1,0 +1,94 @@
+<view class="detail-intro">
+    <view>
+        <view class="outer-box">
+            <!-- <view> -->
+                <view class="info-item" data-tab="intro" bindtap="switchTab">
+                    <text>简介</text>
+                    <image class="icon-right" src="https://imgs.genshuixue.com/0cms/d/file/content/2017/09/59c20b957e61a.png"></image>
+                </view>
+                <view class="info-box" wx:if="{{currentTab === 'intro'}}">
+                    <view class="content">
+                        上甘村是世代书香，文风绵长，自宋至清，有17人高中进士；68人考举人；208名秀才，就一个自然村来说，乃南丰乡村之最。上世纪70年代以来，大中院校毕业生达200余人，并有数名博士后和不少硕士研究生。
+                    </view>
+                    <view class="content">
+                        自改革开放以来，上甘人精心经营着这方厚土，年年获得了粮食、蜜桔和白莲等经济作物的丰收。土地熟了，农民富了，新房多了，到处是生机盎然、欣欣向荣的新农村景象。
+                    </view>
+                </view>
+            <!-- </view> -->
+            <!-- <view> -->
+                <view class="info-item" data-tab="develop" bindtap="switchTab">
+                    <text>发展</text>
+                    <image class="icon-right" src="https://imgs.genshuixue.com/0cms/d/file/content/2017/09/59c20b957e61a.png"></image>
+                </view>
+                <view class="info-box" wx:if="{{currentTab === 'develop'}}">
+                    <view class="content">
+                        上甘村位于白舍镇境内西北山区，距白舍镇35华里。东北西依三溪乡黄连山村和紫霄镇藕塘村和朱坊村，南接下甘村（历史上下甘为一个村“甘坊村）。宋乾隆二年（公元961年）由甘姓第三世祖保舜公从县城迁入始建，因位于“甘坊水”上游，故谓“上甘”。
+                    </view>
+                    <view class="content">
+                        上甘村距白舍镇约17.5公里，与三溪乡仅隔一座鸡月岭，徒步10公里。村落依山而建，地势向南平坦开阔。村外有一条溪水，因其
+                        走向如“了”字，名为“了溪”。村中有《了溪甘氏族谱》，原谱大部分在文革时散佚、烧毁，1996年重修，将所剩部分合订成一本。
+                    </view>
+                    <view class="content">
+                        据《了溪甘氏族谱》记载：唐朝元和（812-815）年间，甘氏第三世祖甘子如（始祖甘令安长子甘明之子，生于790年）“由竹舍村即50都中塘迁居了溪冢上南园辟荒为址，即今甘坊之仙军台下是也”。自此，甘氏揭开了上甘创业的序幕，并建村立寨，繁衍生息，把一个陌生而又蛮荒的地方变成了子孙赖以生存的家园，迄今，1200年之悠久历史。
+                    </view>
+                    <view class="content">
+                        这里因坐落于了水（今为甘坊水）西侧，故唐时称名了溪；宋代后期，随着村落的扩大和人口的发展，易名为甘坊；元代，因别于下甘坊，又易名为上甘坊，简称上甘至今。自古以来，这里曾是耆、都、乡（保联）、区、村等行政所在地。
+                    </view>
+                </view>
+            <!-- </view> -->
+            <!-- <view> -->
+                <view class="info-item" data-tab="bigbang" bindtap="switchTab">
+                    <text>重大事迹</text>
+                    <image class="icon-right" src="https://imgs.genshuixue.com/0cms/d/file/content/2017/09/59c20b957e61a.png"></image>
+                </view>
+                <view class="info-box" wx:if="{{currentTab === 'bigbang'}}">
+                    <view class="content">
+                        2012年正月，在近80岁原支部书记赵火龙的提议和村民和赞同下，决定新建上甘牌楼，于同年6月20日（农历5月初2日）开始安装，7月5日（农历5月17日）安装完毕、其为三门五楼仿古式大型（青石）牌楼，总高10.40米，总宽12.40米，庄重、美观，为上甘村标志性建筑物。
+                    </view>
+                </view>
+            <!-- </view> -->
+             <!-- <view> -->
+                <view class="info-item" data-tab="culture" bindtap="switchTab">
+                    <text>文化信仰</text>
+                    <image class="icon-right" src="https://imgs.genshuixue.com/0cms/d/file/content/2017/09/59c20b957e61a.png"></image>
+                </view>
+                <view class="info-box" wx:if="{{currentTab === 'culture'}}">
+                    <view class="content">
+                        早年村中有三座甘氏祠堂，都已倒塌。从周边众多的庙宇看来，甘坊是一个较有宗教气氛的村落，村民大多信仰傩神、佛教，也有七八家信仰天主教。村南口有一座颇具规模的崇福古寺，供奉如来等佛教神祇。
+                    </view>
+                    <view class="content">
+                        除傩神庙，村外还有其他小庙如福主殿、关帝殿、财神殿，以及社公社母、霜降老爷、落雪老爷等小型祭坛。在村东约3里处有一座甘真人祠，塑像不存，传说甘坊始祖曾在此炼丹得道，羽化登仙，族谱中亦有此人事迹。甘坊傩仪式中杂糅大量道教因素，或许与此传统有关。
+                    </view>
+                </view>
+            <!-- </view> -->
+             <!-- <view> -->
+                <view class="info-item" data-tab="crops" bindtap="switchTab">
+                    <text>主要农作物</text>
+                    <image class="icon-right" src="https://imgs.genshuixue.com/0cms/d/file/content/2017/09/59c20b957e61a.png"></image>
+                </view>
+                <view class="info-box" wx:if="{{currentTab === 'crops'}}">
+                    <view>南丰蜜桔</view>
+                    <view class="content">
+                        南丰蜜桔是江西省南丰县的传统地方特色产品，迄今已有1300多年的栽培历史，因其果品色泽金黄、皮薄、少核、肉嫩无渣、甜酸爽口、清香独特，享誉海内外。自唐朝开始，就被历代列为皇室“贡品”，享有“桔中之王”的美称。
+                    </view>
+                    <view>白莲</view>
+                    <view class="content">
+                        南丰县上甘村属中亚热带季风气候，四季分明，气候温和，雨量充沛，无霜期长达273天，年平均气温
+                        18.1℃，年平均降雨量1734mm，年平均日照1828.5小时。耕地肥沃，土壤有机质含量高。由于独特的地理位置和土壤、气候条件，造就了白莲的形成和发展。
+                    </view>
+                    <view class="image-box" bindtap="viewImage">
+                        <image src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=baac6448307adab429dd1311eabdd879/562c11dfa9ec8a1321928080f103918fa1ecc0c2.jpg"></image>
+                    </view>
+                </view>
+            <!-- </view> -->
+            <navigator class="info-item" url='/pages/index/index'>
+                <text>傩舞文化</text>
+                <image class="icon-right" src="https://imgs.genshuixue.com/0cms/d/file/content/2017/09/59c20b957e61a.png"></image>
+            </navigator>
+            <navigator class="info-item" url='/pages/articles/index'>
+                <text>美文大杂烩</text>
+                <image class="icon-right" src="https://imgs.genshuixue.com/0cms/d/file/content/2017/09/59c20b957e61a.png"></image>
+            </navigator>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,32 @@
+<view class="index-page">
+    <view>
+        <view class="user-info info-item" wx:if="{{userInfo}}">
+            <view class="user-avatar">
+                <image src="{{userInfo.avatarUrl}}"></image>
+            </view>
+            <text>{{userInfo.nickName}}</text>
+        </view>
+        <view class="image-sg" bindtap="viewImage">
+            <image src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=b8833169b0003af359b7d4325443ad39/4a36acaf2edda3ccf289694007e93901213f9265.jpg"></image>
+        </view>
+        <view class="welcome-info">
+            您好，<text>{{userInfo.nickName}}</text>
+            ，上甘人民欢迎您！
+        </view>
+        <view class="info-box">
+            <view class="title">
+                关于上甘
+            </view>
+            <view class="content">
+                上甘村，位于江西省南丰县白舍镇西北部，东近三溪乡，南靠下甘村，西、北均邻紫霄镇，属上甘村委会所在地，有6个村民小组，1446人（1970年1月，浙江移民200余人），为南丰西乡千年古村。
+                <text class="more-info" bindtap="toDetailIntro">详细介绍 >></text>
+            </view>
+        </view>
+        <view class="about-app outer-box">
+            <button open-type="contact" class="info-item">
+                <text>联系我们</text>
+                <image class="icon-right" src="https://imgs.genshuixue.com/0cms/d/file/content/2017/09/59c20b957e61a.png"></image>
+            </button>
+        </view>
+    </view>
+</view>

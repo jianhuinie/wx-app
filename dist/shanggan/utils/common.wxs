@@ -59,11 +59,17 @@ function switchLine(str) {
     return str.replace('/\n/g', '<br>');
 }
 
+//转成 json字符串
+function toJsonStr(obj) {
+    return JSON.stringify(obj);
+}
+
 module.exports = {
     convertTimeFromSecond: convertTimeFromSecond,
     convertClassByArrLength: convertClassByArrLength,
     getFormatedTimeStr: getFormatedTimeStr,
     cutStringFromEnd: cutStringFromEnd,
     cutString: cutString,
-    switchLine: switchLine
+    switchLine: switchLine,
+    toJsonStr: toJsonStr
 };

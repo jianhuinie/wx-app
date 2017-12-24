@@ -1,7 +1,9 @@
 {
     "pages":[
-        "pages/mypage/index",
-        "pages/helpInfo/index",
+        "pages/index/index",
+        "pages/detailIntro/index",
+        "pages/articles/index",
+        "pages/articleDetail/index",
         "pages/logs/logs"
     ],
     "window":{

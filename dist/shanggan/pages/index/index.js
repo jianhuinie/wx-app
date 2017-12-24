@@ -40,23 +40,21 @@
 /******/ 	return __webpack_require__(0);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ 0:
+/******/ ([
+/* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(6);
+	module.exports = __webpack_require__(1);
 
 
 /***/ }),
-
-/***/ 6:
+/* 1 */
 /***/ (function(module, exports) {
 
 	'use strict';
 
 	/**
-	 * @file 作业系统小程序个人中心
+	 * @file 上甘之家首页
 	 * @author niejianhui
 	 */
 	var app = getApp();
@@ -64,9 +62,6 @@
 	    data: {},
 	    onLoad: function onLoad(options) {
 	        var me = this;
-	        me.setData({
-	            usertype: 0
-	        });
 	        wx.authorize({
 	            scope: 'scope.userInfo',
 	            success: function success() {
@@ -77,9 +72,19 @@
 	                });
 	            }
 	        });
+	    },
+	    toDetailIntro: function toDetailIntro() {
+	        wx.navigateTo({
+	            url: '/pages/detailIntro/index'
+	        });
+	    },
+	    viewImage: function viewImage(e) {
+	        var images = ['https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=b8833169b0003af359b7d4325443ad39/4a36acaf2edda3ccf289694007e93901213f9265.jpg'];
+	        wx.previewImage({
+	            urls: images
+	        });
 	    }
 	});
 
 /***/ })
-
-/******/ });
+/******/ ]);

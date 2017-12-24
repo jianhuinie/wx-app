@@ -44,15 +44,14 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(2);
+	module.exports = __webpack_require__(1);
 
 
 /***/ }),
-/* 1 */,
-/* 2 */
+/* 1 */
 /***/ (function(module, exports) {
 
-	"use strict";
+	'use strict';
 
 	/**
 	 * @file 作业系统小程序老帮助信息页
@@ -60,11 +59,13 @@
 	 */
 
 	Page({
-	    data: {},
-	    onLoad: function onLoad(options) {
-	        this.setData({
-	            usertype: 0
-	        });
+	    data: {
+	        articleList: [{
+	            title: '我爱我的家乡',
+	            author: '聂建辉',
+	            article_number: '000000001',
+	            release_time: '2017-12-24'
+	        }]
 	    }
 	});
 

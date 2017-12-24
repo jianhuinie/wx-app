@@ -1,0 +1,15 @@
+<view class="articles-page">
+    <view class="article-list">
+        <view wx:for="{{articleList}}" wx:key="{{item.article_number}}" class="article-item">
+            <navigator url="{{'/pages/articleDetail/index?articelNumber=' + item.article_number + '&title=' + item.title}}">
+                <view class="title">{{item.title}}</view>
+                <view class="author-info">
+                    作者： {{item.author}}
+                </view>
+                <view>
+                    <text class="release-time">发布时间： {{item.release_time}}</text>
+                </view>
+            </navigator>
+        </view>
+    </view>
+</view>

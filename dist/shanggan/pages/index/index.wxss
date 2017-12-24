@@ -1,0 +1,144 @@
+/**
+ * 公共变量
+ */
+.hide {
+  display: none;
+}
+.show {
+  display: inline-block;
+}
+.word-break {
+  white-space: normal;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.ellipsis {
+  display: inline-block;
+  zoom: 1;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.txt-right {
+  text-align: right;
+}
+.placeholder {
+  color: #8a8a8a;
+}
+.info-box {
+  padding: 30rpx;
+}
+.info-box .title {
+  font-weight: bold;
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+}
+.info-box .content {
+  font-size: 24rpx;
+  text-indent: 48rpx;
+}
+.info-box .content .more-info {
+  color: #136ec2;
+}
+.image-box {
+  text-align: center;
+  margin: 20rpx auto;
+}
+page {
+  height: 100%;
+  background-color: #f8f8f8;
+}
+page .index-page {
+  border-top: 2rpx solid #dcddde;
+}
+page .index-page .info-item {
+  background: #fff;
+  position: relative;
+  font-size: 30rpx;
+  color: #2D2D2E;
+  line-height: 30rpx;
+  height: 90rpx;
+  box-sizing: border-box;
+  padding-top: 30rpx;
+  border-bottom: 2rpx solid #f8f8f8;
+}
+page .index-page .info-item .icon-right {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 3%;
+  top: 26rpx;
+}
+page .index-page .info-item .status-text {
+  font-size: 26rpx;
+  color: #9D9D9E;
+  line-height: 26rpx;
+  position: absolute;
+  right: 10%;
+  top: 34rpx;
+}
+page .index-page .info-item:last-child {
+  border: none;
+}
+page .index-page button.info-item {
+  text-align: left;
+  padding-left: 0;
+}
+page .index-page button.info-item:after {
+  display: none;
+}
+page .index-page .user-info {
+  height: 130rpx;
+  margin: 20rpx 0;
+  padding-top: 22rpx;
+  padding-left: 30rpx;
+  border: none;
+}
+page .index-page .user-info .icon-right {
+  top: 50rpx;
+}
+page .index-page .user-info .user-avatar {
+  display: inline-block;
+}
+page .index-page .user-info .user-avatar image {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+page .index-page .user-info text {
+  font-size: 34rpx;
+  color: #3D3D3E;
+  line-height: 34rpx;
+  position: relative;
+  left: 20rpx;
+  bottom: 30rpx;
+}
+page .index-page .outer-box {
+  padding-left: 30rpx;
+  background: #fff;
+}
+page .index-page .about-app {
+  margin-top: 20rpx;
+}
+page .index-page .about-app contact-button {
+  width: 100%;
+}
+page .index-page .about-app contact-button text {
+  float: left;
+  margin-right: 73%;
+}
+page .index-page .image-sg {
+  background-color: #fff;
+}
+page .index-page .image-sg image {
+  width: 100%;
+  height: 600rpx;
+}
+page .index-page .welcome-info {
+  background-color: #fff;
+  padding: 30rpx;
+}
+page .index-page .welcome-info text {
+  color: red;
+}
